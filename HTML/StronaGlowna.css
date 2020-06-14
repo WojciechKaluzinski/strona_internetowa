@@ -1,0 +1,176 @@
+.fa-facebook-f:hover {
+    color: #143f90 !important;
+}
+
+.hov:hover {
+    color: #143f90 !important;
+}
+
+.footer {
+    background: #3d3c3c;
+    padding-bottom: 10px;
+    bottom: 0px;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 100px solid #ffffff;
+    clear: both;
+    position: relative;
+    height: auto;
+
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer img {
+    max-width: 500px;
+    height: 200px;
+    margin-top: 50px;
+    margin-right: 400px;
+}
+
+.footer h3 {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    padding: 40px 0 0px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.footer h4 {
+    color: white;
+    font-size: 2em;
+    line-height: 38px;
+    padding: 40px 0 10px;
+    font-family: cursive;
+    font-weight: lighter
+}
+
+.footer ul {
+    font-size: 13px;
+    list-style-type: none;
+    margin-left: 0;
+    margin-top: 100px;
+    color: #7F8C8D;
+    padding: 0 0 8px 0;
+}
+
+.email {
+    border-bottom: 3px solid #fff;
+}
+
+.footer ul li a {
+    padding: 0 0 25px 0;
+    display: block;
+    font-size: medium;
+}
+
+.footer a {
+    color: white;
+    font-weight: lighter;
+}
+
+.footer p {
+    color: white;
+    font-weight: lighter;
+}
+
+.footer a:hover {
+    color: #143f90;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.supportLi h4 {
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: normal;
+    margin-bottom: 0 !important;
+    padding-bottom: 0;
+}
+
+.bg-gray {
+    box-shadow: 0 1px 0 #B4B3B3;
+}
+
+
+.footer a {
+    color: #78828D
+}
+
+.footer-bottom {
+    margin-top: 2em;
+    border-top: 1px solid #DDDDDD;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.footer-bottom p.pull-left {
+    padding-top: 6px;
+    font-size: 0.75em
+}
+
+.navbar {
+    background: #3d3c3c;
+}
+
+.navbar-brand {
+    margin-left: 30px;
+}
+
+.img-slider {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.slider-text {
+    text-shadow: -1px 0 black, 0 1px black,
+    1px 0 black, 0 -1px black
+}
+
+.figure-img {
+    width: 350px;
+    height: auto;
+    object-fit: cover;
+}
+
+#blue-box {
+    background: #143f90;
+    height: 60px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.f-column {
+    margin: 10px 20px;
+}
+
+#rect-img {
+    width: 350px;
+    min-width: 30%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+
+
+}
+
+#contact-button {
+    background: #143f90;
+    margin-top: 50px;
+}
+
+#contact-info{
+    margin-top: 40px;
+}
+
+#contact-button:hover {
+    background: #3d3c3c;
+!important;
+}
+
