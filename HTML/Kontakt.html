@@ -8,6 +8,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="StronaGlowna.css"/>
+    <link rel="stylesheet" type="text/css" href="Meiling.css"/>
     <script type="text/javascript" src="/JS/StronaGlowna_Header.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -17,7 +18,7 @@
 <!-- Header -->
 <nav class="navbar navbar-expand-lg navbar-dark static-top">
     <div class="container">
-        <a class="navbar-brand" href="StronaGlowna.html">
+        <a class="navbar-brand" href="index.html">
             <img src="logo.jpg" width="180" height="70" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
@@ -27,7 +28,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link hov" href="StronaGlowna.html">Strona Główna</a>
+                    <a class="nav-link hov" href="index.html">Strona Główna</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link hov" href="OMnie.html">O mnie</a>
@@ -41,7 +42,7 @@
                     </a>
                 </li>
             </ul>
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="https://www.facebook.com/profile.php?id=100010765842625" target="_blank">
                 <i class="fa fa-facebook-f" style="font-size:36px; color: honeydew"></i>
             </a>
         </div>
@@ -58,22 +59,75 @@
     </div>
     <div class="row">
         <div class="col-lg-6">
-            <i class="fa fa-phone fa-3x ofer-col" aria-hidden="true"> </i>
-            <i class="fa-2x ofer-col" aria-hidden="true"> +48 692 000 274 </i>
+            <div class="row">
+                <i class="fa fa-phone fa-3x ofer-col" aria-hidden="true"> </i>
+                <h4 class="fa-2x ofer-col" >&nbsp; +48 692 000 274 </h4>
+            </div>
             <br>
-            <i class="fa fa-envelope fa-3x ofer-col" aria-hidden="true"> </i>
-            <i class="fa-2x ofer-col" aria-hidden="true"> rzeczoznawca.loda@gmail.com </i>
-
-            <h6>*-dane w tym adres e-mail, nie będą gromadzone oraz przesyłane o osobom trzecim.
-                Dane zawarte w formularzu służą wyłącznie do celów komunikacyjnych z Nadawcą. Dane będą przetwarzane w
-                zakresie drobnych bieżących spraw życia codziennego-
-                -w myśl art. 43 ust. 1 pkt 11 ustawy o ochronie danych osobowych. Podanie danych jest dobrowolne, ale
-                niezbędne do przetworzenia zapytania. Zostałem /am poinformowany/a, że przysługuje mi prawo, żądania
-                zaprzestania ich przetwarzania.
-            </h6>
+            <div class="row">
+                <i class="fa fa-envelope fa-3x ofer-col" aria-hidden="true"> </i>
+                <h4 class="fa-2x ofer-col">&nbsp; rzeczoznawca.loda@gmail.com </h4>
+            </div>
+            <br>
+            <div class="row">
+                <h6>*-dane w tym adres e-mail, nie będą gromadzone oraz przesyłane o osobom trzecim.
+                    Dane zawarte w formularzu służą wyłącznie do celów komunikacyjnych z Nadawcą. Dane będą przetwarzane
+                    w
+                    zakresie drobnych bieżących spraw życia codziennego-
+                    -w myśl art. 43 ust. 1 pkt 11 ustawy o ochronie danych osobowych. Podanie danych jest dobrowolne,
+                    ale
+                    niezbędne do przetworzenia zapytania. Zostałem /am poinformowany/a, że przysługuje mi prawo, żądania
+                    zaprzestania ich przetwarzania.
+                </h6>
+            </div>
         </div>
         <div class="col">
-            <img src="audi.jpg" style="height: 250px; width: auto;">
+            <div class="fcf-body">
+
+                <div id="fcf-form">
+                    <h3 class="fcf-h3">Wyślij mi wiadomość</h3>
+
+                    <form id="fcf-form-id" class="fcf-form-class" method="post" action="handler.php">
+
+                        <div class="fcf-form-group">
+                            <label for="Name" class="fcf-label">Twoje imię</label>
+                            <div class="fcf-input-group">
+                                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                            </div>
+                        </div>
+
+                        <div class="fcf-form-group">
+                            <label for="Phone" class="fcf-label">Twój numer telefonu</label>
+                            <div class="fcf-input-group">
+                                <input type="tel" id="Phone" name="Phone" class="fcf-form-control" required>
+                            </div>
+                        </div>
+
+                        <div class="fcf-form-group">
+                            <label for="Email" class="fcf-label">Twój adres email</label>
+                            <div class="fcf-input-group">
+                                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                            </div>
+                        </div>
+
+                        <div class="fcf-form-group">
+                            <label for="Message" class="fcf-label">Twoja wiadomość</label>
+                            <div class="fcf-input-group">
+                                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000"
+                                          required></textarea>
+                            </div>
+                        </div>
+
+                        <div class="fcf-form-group">
+                            <button type="submit" id="fcf-button"
+                                    class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Wyślij
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
         </div>
     </div>
 </div>
@@ -102,7 +156,7 @@
                 </div>
                 <div class="text-lg-center col-lg-3 col-md-8 col-sm-8 col-xs-3">
                     <ul>
-                        <li><h5><a href="StronaGlowna.html" style="margin-top: 5em"> Strona Główna </a></h5></li>
+                        <li><h5><a href="index.html" style="margin-top: 5em"> Strona Główna </a></h5></li>
                         <li><h5><a href="OMnie.html"> O mnie </a></h5></li>
                         <li><h5><a href="Oferta.html"> Oferta </a></h5></li>
                     </ul>
